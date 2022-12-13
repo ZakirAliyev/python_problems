@@ -1,5 +1,5 @@
 """
-1. Natural ədəd verilmişdir. Bu ədədin cüt
+1.1  Введение в курс. Natural ədəd verilmişdir. Bu ədədin cüt
 və 4-ə bölünən ədəd olduğunu müəyyən edin.
 """
 

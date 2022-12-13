@@ -2,7 +2,7 @@
 Şəkildə ədədlər üçbucağı təsvir olunub. Üçbucağın üst nöqtəsindən başlayıb onun aşağı
 tərəfində bitən yolda yerləşən ədədlərin ən böyük cəmini hesablayan proqramı yazın.
 Hər bir addım aşağı dioqanal üzrə sola və ya aşağı dioqanal üzrə sağa atıla bilər.
-Üçbucaqlıdakı sətirlərin sayı 1-dən çox və 100-dən kiçik bərabərdir.
+Üçbucaqlıdakı sətirlərin sayı 1.1  Введение в курс-dən çox və 100-dən kiçik bərabərdir.
 Üçbucaqlı 0-dan 99-a qədər diapazonda tam ədədlərdən təşkil olunur.
 
 Giriş verilənləri
@@ -15,7 +15,7 @@ Giriş verilənləri   |   Çıxış verilənləri
 5                   |   30
 7                   |
 3 8                 |
-8 1 0               |
+8 1.1  Введение в курс 0               |
 2 7 4 4             |
 4 5 2 6 5           |
 """

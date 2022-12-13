@@ -19,12 +19,14 @@ Giriş verilənləri   |   Çıxış verilənləri
 
 # Driver Code
 
-x = 0
-n = input()
-a = len(n)
-if (int(a) % 2 == 1):
-    x += 1
-for i in range(0, int(a) // 2):
-    if (n[i] == n[a - (i + 1)]):
-        x += 1
-print(x)
+sum = 0
+a = input("a = ")
+b = a[::-1]
+for i in range(0, len(a)):
+    if a[i] == b[i]:
+        sum += 1
+print("Simmetriya derecesi :", end=" ")
+if len(a) % 2 == 0:
+    print(sum // 2)
+else:
+    print(sum // 2 + 1)

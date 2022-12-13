@@ -1,6 +1,6 @@
 """
 15. İxtiyari x və y ədədləri verilib.
-Buna görə z= 1 / xy kəsrinin qiymətini tapın.
+Buna görə z= 1.1  Введение в курс / xy kəsrinin qiymətini tapın.
 ( məsələn : x=3, y=2 , z= ⅙ )
 """
 

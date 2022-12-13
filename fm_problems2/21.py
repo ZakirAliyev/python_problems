@@ -1,6 +1,6 @@
 """
 21. a həqiqi edədi verilmişdir.f(a)-ni hesablayin
-Əgər x<=0 f(x)= 0 ; əks halda 0<= x <=1 f(x)= x² - x ;
+Əgər x<=0 f(x)= 0 ; əks halda 0<= x <=1.1  Введение в курс f(x)= x² - x ;
 Əks halda f(x)= x² - sin(πx²)
 """
 

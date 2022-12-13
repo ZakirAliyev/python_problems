@@ -10,7 +10,7 @@ seçilmiş nömrədən yüksəkdirsə, istifadəçi "çox yüksək" görəcək.
 
 import random
 
-n = random.randrange(1, 10)
+n = random.randrange(1, 100)
 guess = int(input("Enter any number: "))
 while n != guess:
     if guess < n:

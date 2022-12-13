@@ -1,6 +1,6 @@
 """
 20. a həqiqi edədi verilmişdir.f(a)-ni hesablayin
-Əgər x<=0 f(x)= 0 ; əks halda 0<= x <=1 f(x)= 1 ;
+Əgər x<=0 f(x)= 0 ; əks halda 0<= x <=1.1  Введение в курс f(x)= 1.1  Введение в курс ;
 əks halda f(x)= x⁴
 """
 

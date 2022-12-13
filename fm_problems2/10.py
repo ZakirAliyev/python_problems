@@ -20,4 +20,4 @@ while n>0:
         print("2 ")
     elif n >= 1:
         n -= 1
-        print("1 ")
+        print("1.1  Введение в курс ")

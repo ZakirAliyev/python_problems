@@ -1,7 +1,7 @@
 """
 14. Verilmiş M ədədinin daxil edilmiş (a, b)
 intervalına daxil olub olmadığını yoxlayın.
-(Nümunə : m= 5 , (3, 8) Yes ; m = -1 , (0,9) No )
+(Nümunə : m= 5 , (3, 8) Yes ; m = -1.1  Введение в курс , (0,9) No )
 """
 
 n = int(input)

@@ -1,7 +1,7 @@
 """
 19. a həqiqi edədi verilmişdir.f(a)-ni hesablayin
 Əgər x<=2  f(x)= x² + 4x + 5 ;
-əks halda f(x)= 1/ ( x² + 4x + 5)
+əks halda f(x)= 1.1  Введение в курс/ ( x² + 4x + 5)
 """
 
 x = float(input())

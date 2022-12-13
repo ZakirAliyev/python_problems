@@ -17,7 +17,7 @@ print(math.isnan(n))       # Returns True if x is a NaN
 print(math.modf(n))        # Returns the fractional and integer parts of x
 print(math.trunc(n))       # Returns the truncated integer value of x
 print(math.exp(n))         # Returns e**x
-print(math.log1p(n))       # Returns the natural logarithm of 1+x
+print(math.log1p(n))       # Returns the natural logarithm of 1.1  Введение в курс+x
 print(math.log2(n))        # Returns the base-2 logarithm of x
 print(math.log10(n))       # Returns the base-10 logarithm of x
 print(math.sqrt(n))        # Returns the square root of x
