@@ -1,0 +1,5 @@
+a, b, c = list(map(int, input().split()))
+max = max(a, b, c)
+min = min(a, b, c)
+mid = (a + b + c) - (max + min)
+print("max = {}\nmin = {}\nmid = {}".format(max, min, mid))
