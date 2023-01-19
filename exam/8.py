@@ -1,5 +1,9 @@
 import math
 
-r = int(input("r = "))
 
-print("l = ", 2 * math.pi * r)
+def fun(r):
+    return 2 * math.pi * r
+
+
+r = int(input("r = "))
+print("l = ", fun(r))

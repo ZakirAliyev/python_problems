@@ -1,5 +1,4 @@
-list = list(map(int, input().split()))
-tuple = tuple(list)
+tuple = tuple(map(int, input().split()))
 sum = 0
 for i in tuple:
     if i < 7:
