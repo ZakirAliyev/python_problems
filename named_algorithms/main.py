@@ -258,6 +258,6 @@ class Application(tk.Frame):
 
 root = tk.Tk()
 root.config(bg="#0AFCD7")
-root.geometry("800x840")
+root.geometry("800x800")
 app = Application(master=root)
 app.mainloop()
