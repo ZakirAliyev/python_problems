@@ -13,7 +13,7 @@ r = int(input("r = "))
 x = int(input("x = "))
 
 vk = a ** 2
-vs = math.pi * r ** 2 * h
+vs = mathh.pi * r ** 2 * h
 
 if x <= vk and x <= vs:
    print("The liquid settles in both the cylinder and the cube.")

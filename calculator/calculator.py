@@ -1,3 +1,4 @@
+import math
 import tkinter as tk
 from tkinter import *
 
@@ -11,10 +12,9 @@ def open_new_window():
                               "Date and Time : 07/04/2023 04:45:34\nUniversity : BSU - "
                               "Baku State University\nFaculty : Applied Mathematics and Cybernetics "
                               "\n(SABAH Groups)\nMajority : Computer Sciences\nCourse : Two (2)\nGroup "
-                              "name : KE022S1 and KE022S2\nAuthors : Gulchohra Sultanova Cavanshir and\nAliyev Zakir "
-                              "Agamehdi "
+                              "name : KE022S1 \nAuthors : Gulchohra Sultanova Cavanshir"
                               "\n\nNote : If there is any "
-                              "problem with the issue,\n please contact\naliyevzakir814@gmail.com or \n"
+                              "problem with the issue,\n please contact\n"
                               "gulcohrsultanov@gmail.com:)",
                          font=("TkDefaultFont", 25), fg="dark blue", bg="light green")
     label_wel.pack()
@@ -37,9 +37,11 @@ def button_multiply():
     entry1.delete(0, END)
     first_number = entry2.get()
     global f_num
-    global math
-    entry1.insert(0, first_number + " x ")
-    math = "multiplication"
+    global mathh
+    global j
+    j = " x "
+    entry1.insert(0, first_number + j)
+    mathh = "multiplication"
     f_num = float(first_number)
     entry2.delete(0, END)
 
@@ -48,9 +50,11 @@ def button_addition():
     entry1.delete(0, END)
     first_number = entry2.get()
     global f_num
-    global math
-    entry1.insert(0, first_number + " + ")
-    math = "addition"
+    global mathh
+    global j
+    j = " + "
+    entry1.insert(0, first_number + j)
+    mathh = "addition"
     f_num = float(first_number)
     entry2.delete(0, END)
 
@@ -59,9 +63,11 @@ def button_subtraction():
     entry1.delete(0, END)
     first_number = entry2.get()
     global f_num
-    global math
-    entry1.insert(0, first_number + " - ")
-    math = "subtraction"
+    global mathh
+    global j
+    j = " - "
+    entry1.insert(0, first_number + j)
+    mathh = "subtraction"
     f_num = float(first_number)
     entry2.delete(0, END)
 
@@ -70,33 +76,237 @@ def button_division():
     entry1.delete(0, END)
     first_number = entry2.get()
     global f_num
-    global math
-    entry1.insert(0, first_number + " / ")
-    math = "division"
+    global mathh
+    global j
+    j = " / "
+    entry1.insert(0, first_number + j)
+    mathh = "division"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_percent():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " % "
+    entry1.insert(0, first_number + j)
+    mathh = "%"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_mod():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " mod "
+    entry1.insert(0, first_number + j)
+    mathh = "mod"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_dot():
+    entry2.insert(len(entry2.get()), ".")
+
+
+def button_sin():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " sin "
+    entry1.insert(0, "sin(" + first_number + ")")
+    mathh = "sin"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_cos():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " cos "
+    entry1.insert(0, "cos(" + first_number + ")")
+    mathh = "cos"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_tan():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " tan "
+    entry1.insert(0, "tan(" + first_number + ")")
+    mathh = "tan"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_sinh():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " sinh "
+    entry1.insert(0, "sinh(" + first_number + ")")
+    mathh = "sinh"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_cosh():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " cosh "
+    entry1.insert(0, "cosh(" + first_number + ")")
+    mathh = "cosh"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_tanh():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " tanh "
+    entry1.insert(0, "tanh(" + first_number + ")")
+    mathh = "tanh"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_sin_1():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " asin "
+    entry1.insert(0, "asin(" + first_number + ")")
+    mathh = "asin"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_cos_1():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " acos "
+    entry1.insert(0, "acos(" + first_number + ")")
+    mathh = "acos"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_tan_1():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " atan "
+    entry1.insert(0, "atan(" + first_number + ")")
+    mathh = "atan"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_sinh_1():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " asinh "
+    entry1.insert(0, "asinh(" + first_number + ")")
+    mathh = "asinh"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_cosh_1():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " acosh "
+    entry1.insert(0, "acosh(" + first_number + ")")
+    mathh = "acosh"
+    f_num = float(first_number)
+    entry2.delete(0, END)
+
+
+def button_tanh_1():
+    entry1.delete(0, END)
+    first_number = entry2.get()
+    global f_num
+    global mathh
+    global j
+    j = " atanh "
+    entry1.insert(0, "atanh(" + first_number + ")")
+    mathh = "atanh"
     f_num = float(first_number)
     entry2.delete(0, END)
 
 
 def button_equal():
+    third_number = "math." + entry1.get()
     second_number = entry2.get()
     entry2.delete(0, END)
+
     global r
-    if math == "multiplication":
-        r = f_num * int(second_number)
-        entry1.insert(len(str(f_num)) + 3, second_number)
-        entry2.insert(0, r)
-    elif math == "division":
-        r = f_num / float(second_number)
-        entry1.insert(len(str(f_num)) + 3, second_number)
-        entry2.insert(0, r)
-    elif math == "subtraction":
-        r = f_num - int(second_number)
-        entry1.insert(len(str(f_num)) + 3, second_number)
-        entry2.insert(0, r)
-    elif math == "addition":
-        r = f_num + int(second_number)
-        entry1.insert(len(str(f_num)) + 3, second_number)
-        entry2.insert(0, r)
+    try:
+        if mathh == "multiplication":
+            r = f_num * float(second_number)
+            entry1.insert(len(str(f_num)) + len(j), second_number)
+            entry2.insert(0, r)
+        elif mathh == "division":
+            r = f_num / float(second_number)
+            entry1.insert(len(str(f_num)) + len(j), second_number)
+            entry2.insert(0, r)
+        elif mathh == "subtraction":
+            r = f_num - float(second_number)
+            entry1.insert(len(str(f_num)) + len(j), second_number)
+            entry2.insert(0, r)
+        elif mathh == "addition":
+            r = f_num + float(second_number)
+            entry1.insert(len(str(f_num)) + len(j), second_number)
+            entry2.insert(0, r)
+        elif mathh == "mod":
+            r = f_num % float(second_number)
+            entry1.insert(len(str(f_num)) + len(j), second_number)
+            entry2.insert(0, r)
+        elif mathh == "sin" or mathh == "cos" or mathh == "tan" or mathh == "asin" or mathh == "acos" or mathh == "atan" or mathh == "asinh" or mathh == "acosh" or mathh == "atanh" or mathh == "sinh" or mathh == "cosh" or mathh == "tanh":
+            result = eval(third_number)
+            entry2.insert(0, result)
+        elif mathh == "%":
+            r = f_num * float(second_number) / 100
+            entry1.insert(len(str(f_num)) + len(j), second_number)
+            entry2.insert(0, r)
+    except:
+        entry2.insert(0, "Math Error")
 
 
 root = tk.Tk()
@@ -121,7 +331,7 @@ entry1.pack(pady=32)
 entry2 = tk.Entry(root, width=35, font=("Arial", 45), borderwidth=3)
 entry2.pack()
 
-button_mod = tk.Button(root, font=("Arial", 25, "bold"), text="mod", pady=0)
+button_mod = tk.Button(root, font=("Arial", 25, "bold"), text="mod", pady=0, command=button_mod)
 button_mod.place(x=35, y=350)
 
 button_mc = tk.Button(root, font=("Arial", 25, "bold"), text="MC", padx=9)
@@ -139,14 +349,14 @@ button_m_plus.place(x=35 + 106 * 9, y=350)
 button_m_minus = tk.Button(root, font=("Arial", 25, "bold"), text="M-", padx=15)
 button_m_minus.place(x=35 + 106 * 10, y=350)
 
-button_sinh = tk.Button(root, font=("Arial", 25, "bold"), text="sinh", padx=2, fg="#444444")
+button_sinh = tk.Button(root, font=("Arial", 25, "bold"), text="sinh", padx=2, fg="#444444", command=button_sinh)
 button_sinh.place(x=35, y=430)
 
-button_cosh = tk.Button(root, font=("Arial", 25, "bold"), text="cosh", fg="#444444")
+button_cosh = tk.Button(root, font=("Arial", 25, "bold"), text="cosh", fg="#444444", command=button_cosh)
 button_cosh.place(x=35 + 106, y=430)
 
-button_tgh = tk.Button(root, font=("Arial", 25, "bold"), text="tanh", fg="#444444")
-button_tgh.place(x=35 + 110 * 2, y=430)
+button_tanh = tk.Button(root, font=("Arial", 25, "bold"), text="tanh", fg="#444444", command=button_tanh)
+button_tanh.place(x=35 + 110 * 2, y=430)
 
 button_exp = tk.Button(root, font=("Arial", 25, "bold"), text="exp", padx=9, fg="#444444")
 button_exp.place(x=35 + 109 * 3, y=430)
@@ -170,13 +380,16 @@ button_plus_minus.place(x=35 + 106 * 9, y=430)
 button_sqrt = tk.Button(root, font=("Arial", 25, "bold"), text="√", padx=26, fg="#444444")
 button_sqrt.place(x=35 + 106 * 10, y=430)
 
-button_sinh_1 = tk.Button(root, font=("Arial", 16, "bold"), text="sinh^-1", padx=3, fg="#444444", height=2)
+button_sinh_1 = tk.Button(root, font=("Arial", 16, "bold"), text="sinh^-1", padx=3, fg="#444444", height=2,
+                          command=button_sinh_1)
 button_sinh_1.place(x=35, y=510)
 
-button_cosh_1 = tk.Button(root, font=("Arial", 16, "bold"), text="cosh^-1", padx=3, fg="#444444", height=2)
+button_cosh_1 = tk.Button(root, font=("Arial", 16, "bold"), text="cosh^-1", padx=3, fg="#444444", height=2,
+                          command=button_cosh_1)
 button_cosh_1.place(x=35 + 106, y=510)
 
-button_tgh_1 = tk.Button(root, font=("Arial", 16, "bold"), text="tanh^-1", padx=2, fg="#444444", height=2)
+button_tgh_1 = tk.Button(root, font=("Arial", 16, "bold"), text="tanh^-1", padx=2, fg="#444444", height=2,
+                         command=button_tanh_1)
 button_tgh_1.place(x=35 + 110 * 2, y=510)
 
 button_log2x = tk.Button(root, font=("Arial", 16, "bold"), text="log  x", padx=14, fg="#444444", height=2)
@@ -203,7 +416,7 @@ button_9.place(x=35 + 106 * 8, y=510)
 button_divide = tk.Button(root, font=("Arial", 24, "bold"), text="/", padx=31, fg="#444444", command=button_division)
 button_divide.place(x=35 + 106 * 9, y=510)
 
-button_percent = tk.Button(root, font=("Arial", 24, "bold"), text="%", padx=22, fg="#444444")
+button_percent = tk.Button(root, font=("Arial", 24, "bold"), text="%", padx=22, fg="#444444", command=button_percent)
 button_percent.place(x=35 + 106 * 10, y=510)
 
 button_pi = tk.Button(root, font=("Arial", 24, "bold"), text="π", padx=22, fg="#444444")
@@ -242,13 +455,13 @@ button_multiply.place(x=35 + 106 * 9, y=590)
 button_1dividex = tk.Button(root, font=("Arial", 24, "bold"), text="1/x", padx=13, fg="#444444")
 button_1dividex.place(x=35 + 106 * 10, y=590)
 
-button_sin = tk.Button(root, font=("Arial", 24, "bold"), text="sin", padx=11, fg="#444444")
+button_sin = tk.Button(root, font=("Arial", 24, "bold"), text="sin", padx=11, fg="#444444", command=button_sin)
 button_sin.place(x=35, y=670)
 
-button_cos = tk.Button(root, font=("Arial", 24, "bold"), text="cos", padx=9, fg="#444444")
+button_cos = tk.Button(root, font=("Arial", 24, "bold"), text="cos", padx=9, fg="#444444", command=button_cos)
 button_cos.place(x=35 + 106, y=670)
 
-button_tan = tk.Button(root, font=("Arial", 24, "bold"), text="tan", padx=12, fg="#444444")
+button_tan = tk.Button(root, font=("Arial", 24, "bold"), text="tan", padx=12, fg="#444444", command=button_tan)
 button_tan.place(x=35 + 108 * 2, y=670)
 
 button_xpowy = tk.Button(root, font=("Arial", 24, "bold"), text="x^y", padx=11, fg="#444444")
@@ -276,13 +489,16 @@ button_equal = tk.Button(root, font=("Arial", 25, "bold"), text="=", padx=25, bg
                          command=button_equal)
 button_equal.place(x=35 + 106 * 10, y=670)
 
-button_sin_1 = tk.Button(root, font=("Arial", 16, "bold"), text="sin^-1", padx=8, fg="#444444", height=2)
+button_sin_1 = tk.Button(root, font=("Arial", 16, "bold"), text="sin^-1", padx=8, fg="#444444", height=2,
+                         command=button_sin_1)
 button_sin_1.place(x=35, y=750)
 
-button_cos_1 = tk.Button(root, font=("Arial", 16, "bold"), text="cos^-1", padx=7, fg="#444444", height=2)
+button_cos_1 = tk.Button(root, font=("Arial", 16, "bold"), text="cos^-1", padx=7, fg="#444444", height=2,
+                         command=button_cos_1)
 button_cos_1.place(x=35 + 106, y=750)
 
-button_tan_1 = tk.Button(root, font=("Arial", 16, "bold"), text="tan^-1", padx=8, fg="#444444", height=2)
+button_tan_1 = tk.Button(root, font=("Arial", 16, "bold"), text="tan^-1", padx=8, fg="#444444", height=2,
+                         command=button_tan_1)
 button_tan_1.place(x=35 + 108 * 2, y=750)
 
 button_yrootx = tk.Button(root, font=("Arial", 24, "bold"), text="y√x", padx=12, fg="#444444")
@@ -297,7 +513,7 @@ button_module.place(x=35 + 107 * 5, y=750)
 button_0 = tk.Button(root, font=("Arial", 24, "bold"), text="0", padx=79, fg="#444444", command=lambda: button_click(0))
 button_0.place(x=35 + 106 * 6, y=750)
 
-button_dot = tk.Button(root, font=("Arial", 24, "bold"), text=".", padx=30, fg="#444444")
+button_dot = tk.Button(root, font=("Arial", 24, "bold"), text=".", padx=30, fg="#444444", command=button_dot)
 button_dot.place(x=35 + 106 * 8, y=750)
 
 button_plus = tk.Button(root, font=("Arial", 24, "bold"), text="+", padx=25, fg="#444444", command=button_addition)

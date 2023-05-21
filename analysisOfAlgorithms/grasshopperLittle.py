@@ -18,3 +18,8 @@ def function(n):
 
 n = int(input())
 print(function(n))
+
+
+
+
+

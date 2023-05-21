@@ -8,7 +8,7 @@ import math
 x = int(input())
 y = int(input())
 if x > y:
-    z = math.sqrt(x * y)
+    z = mathh.sqrt(x * y)
 else:
-    z = math.log10(x + y)
+    z = mathh.log10(x + y)
 print(z)

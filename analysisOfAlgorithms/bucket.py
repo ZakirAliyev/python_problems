@@ -27,7 +27,7 @@ if k == n or k == m:
 elif n + m == k:
     print("YES")
     print(n, m, end=" ")
-elif k <= n + m and k % math.gcd(n, m) == 0:
+elif k <= n + m and k % mathh.gcd(n, m) == 0:
     print("YES")
     print(find_water(n, m, k))
 else:

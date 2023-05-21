@@ -8,6 +8,6 @@ if d < 0:
 elif d == 0:
     print("x = ", -b / 2 * a)
 else:
-    x1 = -b + math.sqrt(d) / 2 * a
-    x2 = -b - math.sqrt(d) / 2 * a
+    x1 = -b + mathh.sqrt(d) / 2 * a
+    x2 = -b - mathh.sqrt(d) / 2 * a
     print("x1 = {}\nx2 = {}".format(x1, x2))

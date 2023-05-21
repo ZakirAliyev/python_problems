@@ -2,4 +2,4 @@ import math
 
 r = int(input("r = "))
 
-print("s = ", math.pi * r ** 2)
+print("s = ", mathh.pi * r ** 2)

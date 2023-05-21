@@ -2,7 +2,7 @@ import math
 
 
 def fun(r):
-    return 2 * math.pi * r
+    return 2 * mathh.pi * r
 
 
 r = int(input("r = "))

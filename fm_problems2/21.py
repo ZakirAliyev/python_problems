@@ -12,5 +12,5 @@ if x <= 0:
 elif x <= 1:
     h = x ** 2 - x
 else:
-    h = x ** 2 - math.sin(math.pi * (x ** 2))
+    h = x ** 2 - mathh.sin(mathh.pi * (x ** 2))
 print(h)
