@@ -123,8 +123,6 @@ def button_sin():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " sin "
     entry1.insert(0, "sin(" + first_number + ")")
     mathh = "sin"
     f_num = float(first_number)
@@ -136,8 +134,6 @@ def button_cos():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " cos "
     entry1.insert(0, "cos(" + first_number + ")")
     mathh = "cos"
     f_num = float(first_number)
@@ -149,8 +145,6 @@ def button_tan():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " tan "
     entry1.insert(0, "tan(" + first_number + ")")
     mathh = "tan"
     f_num = float(first_number)
@@ -162,8 +156,6 @@ def button_sinh():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " sinh "
     entry1.insert(0, "sinh(" + first_number + ")")
     mathh = "sinh"
     f_num = float(first_number)
@@ -175,8 +167,6 @@ def button_cosh():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " cosh "
     entry1.insert(0, "cosh(" + first_number + ")")
     mathh = "cosh"
     f_num = float(first_number)
@@ -188,8 +178,6 @@ def button_tanh():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " tanh "
     entry1.insert(0, "tanh(" + first_number + ")")
     mathh = "tanh"
     f_num = float(first_number)
@@ -201,8 +189,6 @@ def button_sin_1():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " asin "
     entry1.insert(0, "asin(" + first_number + ")")
     mathh = "asin"
     f_num = float(first_number)
@@ -214,8 +200,6 @@ def button_cos_1():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " acos "
     entry1.insert(0, "acos(" + first_number + ")")
     mathh = "acos"
     f_num = float(first_number)
@@ -227,8 +211,6 @@ def button_tan_1():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " atan "
     entry1.insert(0, "atan(" + first_number + ")")
     mathh = "atan"
     f_num = float(first_number)
@@ -240,8 +222,6 @@ def button_sinh_1():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " asinh "
     entry1.insert(0, "asinh(" + first_number + ")")
     mathh = "asinh"
     f_num = float(first_number)
@@ -253,8 +233,6 @@ def button_cosh_1():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " acosh "
     entry1.insert(0, "acosh(" + first_number + ")")
     mathh = "acosh"
     f_num = float(first_number)
@@ -266,8 +244,6 @@ def button_tanh_1():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " atanh "
     entry1.insert(0, "atanh(" + first_number + ")")
     mathh = "atanh"
     f_num = float(first_number)
@@ -279,8 +255,6 @@ def button_fak():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " fak "
     entry1.insert(0, first_number + "!")
     mathh = "fak"
     f_num = float(first_number)
@@ -292,8 +266,6 @@ def button_module():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " abs "
     entry1.insert(0, "abs(" + first_number + ")")
     mathh = "abs"
     f_num = float(first_number)
@@ -305,8 +277,6 @@ def button_sqrt():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " sqrt "
     entry1.insert(0, "sqrt(" + first_number + ")")
     mathh = "sqrt"
     f_num = float(first_number)
@@ -318,8 +288,6 @@ def button_3rootx():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " sqrt "
     entry1.insert(0, "pow(" + first_number + ", 1/3)")
     mathh = "sqrt"
     f_num = float(first_number)
@@ -331,8 +299,6 @@ def button_yrootx():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " yrootx "
     entry1.insert(0, "pow(" + first_number + ", 1/")
     mathh = "yrootx"
     f_num = float(first_number)
@@ -344,8 +310,6 @@ def button_log2x():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " log2x "
     entry1.insert(0, "log(" + first_number + ", 2)")
     mathh = "log2x"
     f_num = float(first_number)
@@ -357,8 +321,6 @@ def button_log():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " log "
     entry1.insert(0, "log(" + first_number + ", 10)")
     mathh = "log"
     f_num = float(first_number)
@@ -370,8 +332,6 @@ def button_ln():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " ln "
     entry1.insert(0, "ln(" + first_number + ")")
     mathh = "ln"
     f_num = float(first_number)
@@ -383,8 +343,6 @@ def button_logyx():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " logyx "
     entry1.insert(0, "log(" + first_number + ", ")
     mathh = "logyx"
     f_num = float(first_number)
@@ -396,8 +354,6 @@ def button_xpow2():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " xpow2 "
     entry1.insert(0, "pow(" + first_number + ", 2)")
     mathh = "xpow2"
     f_num = float(first_number)
@@ -409,8 +365,6 @@ def button_xpow3():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " xpow3 "
     entry1.insert(0, "pow(" + first_number + ", 3)")
     mathh = "xpow3"
     f_num = float(first_number)
@@ -422,8 +376,6 @@ def button_xpowy():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " yrootx "
     entry1.insert(0, "pow(" + first_number + ", ")
     mathh = "yrootx"
     f_num = float(first_number)
@@ -435,8 +387,6 @@ def button_10x():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " 10x "
     entry1.insert(0, "pow(10" + ", " + first_number + ")")
     mathh = "10x"
     f_num = float(first_number)
@@ -448,8 +398,6 @@ def button_e_x():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " e_x "
     entry1.insert(0, "pow(e, " + first_number)
     mathh = "e_x"
     f_num = float(first_number)
@@ -461,8 +409,6 @@ def button_exp():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " exp "
     entry1.insert(0, "exp(" + first_number + ")")
     mathh = "exp"
     f_num = float(first_number)
@@ -474,8 +420,6 @@ def button_1dividex():
     first_number = entry2.get()
     global f_num
     global mathh
-    global j
-    j = " div "
     entry1.insert(0, "1 / " + first_number)
     mathh = "div"
     f_num = float(first_number)
@@ -546,27 +490,20 @@ def button_equal():
         elif mathh == "fak":
             result = math.factorial(int(four_number))
             entry2.insert(0, result)
-        elif mathh == "abs":
+        elif mathh == "abs" or mathh == "ln" or mathh == "div":
             result = eval(five_number)
             entry2.insert(0, result)
-        elif mathh == "sqrt":
+        elif mathh == "sqrt" or mathh == "3rootx" or mathh == "log2x" \
+                or mathh == "log" or mathh == "xpow3" or mathh == "xpow2" \
+                or mathh == "10x" or mathh == "exp":
             result = eval(third_number)
             entry2.insert(0, result)
-        elif mathh == "3rootx":
-            result = eval(third_number)
-            entry2.insert(0, result)
-        elif mathh == "yrootx":
+        elif mathh == "yrootx" or mathh == "xpowy" or mathh == "e_x":
             entry1.insert(len(entry1.get()) + 1, second_number)
             cbl = entry1.get() + ")"
             entry1.delete(0, END)
             entry1.insert(0, cbl)
             result = eval(cbl)
-            entry2.insert(0, result)
-        elif mathh == "log2x":
-            result = eval(third_number)
-            entry2.insert(0, result)
-        elif mathh == "ln":
-            result = eval(five_number)
             entry2.insert(0, result)
         elif mathh == "logyx":
             entry1.insert(len(entry1.get()) + 1, second_number)
@@ -575,39 +512,6 @@ def button_equal():
             entry1.insert(0, cbl)
             result = eval("math." + entry1.get())
             entry2.insert(0, result)
-        elif mathh == "log":
-            result = eval(third_number)
-            entry2.insert(0, result)
-        elif mathh == "xpow2":
-            result = eval(third_number)
-            entry2.insert(0, result)
-        elif mathh == "xpow3":
-            result = eval(third_number)
-            entry2.insert(0, result)
-        elif mathh == "xpowy":
-            entry1.insert(len(entry1.get()) + 1, second_number)
-            cbl = entry1.get() + ")"
-            entry1.delete(0, END)
-            entry1.insert(0, cbl)
-            result = eval(cbl)
-            entry2.insert(0, result)
-        elif mathh == "10x":
-            result = eval(third_number)
-            entry2.insert(0, result)
-        elif mathh == "e_x":
-            entry1.insert(len(entry1.get()) + 1, second_number)
-            cbl = entry1.get() + ")"
-            entry1.delete(0, END)
-            entry1.insert(0, cbl)
-            result = eval(cbl)
-            entry2.insert(0, result)
-        elif mathh == "exp":
-            result = eval(third_number)
-            entry2.insert(0, result)
-        elif mathh == "div":
-            result = eval(five_number)
-            entry2.insert(0, result)
-
     except:
         entry2.insert(0, "Math Error")
 
